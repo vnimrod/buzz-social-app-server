@@ -16,7 +16,6 @@ const StaticProfile = ({ getProfileByUid, staticProfile }) => {
     getProfileByUid(uid);
   }, [uid]);
 
-  console.log(staticProfile);
   return (
     <div className="StaticProfile">
       {staticProfile.staticProfile === null ||

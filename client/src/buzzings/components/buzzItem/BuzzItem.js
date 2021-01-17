@@ -55,7 +55,7 @@ const BuzzItem = (props) => {
   }
   return (
     <li className="BuzzItem">
-      {/* <div className="BuzzItem__Data">
+      <div className="BuzzItem__Data">
         <Avatar
           onClick={toProfileHandler}
           buzzAvatar={props.buzzAvatar}
@@ -161,7 +161,7 @@ const BuzzItem = (props) => {
             )}
           </div>
         </div>
-      ) : null} */}
+      ) : null}
     </li>
   );
 };

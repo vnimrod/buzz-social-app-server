@@ -15,8 +15,7 @@ const BuzzList = ({ buzzings, profile, getProfile, getBuzzings }) => {
 
   return (
     <ul className="BuzzList">
-      <div>hi</div>
-      {/* <AddNewBuzz buzzings={buzzings}/>
+      <AddNewBuzz buzzings={buzzings}/>
       {buzzings.map((buzz) => {
         return (
           <BuzzItem
@@ -34,7 +33,7 @@ const BuzzList = ({ buzzings, profile, getProfile, getBuzzings }) => {
             length={buzz.likes.length}
           />
         );
-      }).reverse()} */}
+      }).reverse()}
     </ul>
   );
 };
