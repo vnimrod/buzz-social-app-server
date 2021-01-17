@@ -10,7 +10,7 @@ const Buzzings = ({ getBuzzings, buzzings: { buzzings, loading } }) => {
     getBuzzings();
   }, [getBuzzings]);
   
-  return loading ? <Spinner /> : <BuzzList buzzings={buzzings} />
+  return !buzzings && loading ? <Spinner /> : <BuzzList buzzings={buzzings} />
 };
 
 const mapStateToProps = (state) => ({
