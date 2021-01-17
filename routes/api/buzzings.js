@@ -24,6 +24,7 @@ router.delete('/:bid', auth, buzzController.deleteBuzz);
 // @description   Get all buzzings
 
 router.get('/', auth, buzzController.getBuzzings);
+// router.get('/', buzzController.getBuzzings);
 
 // @route         Put /buzzings/like/:bid
 // @description   Like a buzz
