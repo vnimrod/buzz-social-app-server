@@ -7,7 +7,7 @@ import "./MainPage.css";
 const MainPage = () => {
   return (
   <div className="MainPage">
-    <LeftRail />
+    {/* <LeftRail /> */}
     {/* <Buzzings /> */}
   </div>
   )
