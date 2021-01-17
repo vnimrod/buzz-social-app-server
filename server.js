@@ -1,8 +1,6 @@
 const express = require('express');
 const connectDB = require('./config/db');
 const path = require('path')
-var cors = require('cors')
-
 const app = express();
 
 const users = require('./routes/api/users')
@@ -11,7 +9,6 @@ const buzzings = require('./routes/api/buzzings')
 
 app.use(express.json())
 
-app.use(cors())
 
 app.use('/users', users);
 app.use('/profile', profile);
