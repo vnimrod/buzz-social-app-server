@@ -8,7 +8,7 @@ const usersController = require('../../controllers/user');
 const router = express.Router();
 
 // @route         GET users/me
-// @description   Signup route
+// @description   Auth route
 
 router.get('/me', auth, usersController.getUser);
 

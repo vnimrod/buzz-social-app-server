@@ -5,13 +5,15 @@ import BuzzItem from '../buzzItem/BuzzItem';
 import AddNewBuzz from '../addNewBuzz/AddNewBuzz';
 import {getProfile} from '../../../store/actions/profile'
 import {getBuzzings} from '../../../store/actions/buzz'
+import {authStart} from '../../../store/actions/auth'
 import './BuzzList.css';
 
-const BuzzList = ({ buzzings, profile, getProfile, getBuzzings }) => {
+const BuzzList = ({ buzzings, profile, getProfile, getBuzzings, authStart }) => {
   useEffect(() => {
     getProfile();
     getBuzzings();
-  }, []);
+    authStart();
+  }, [authStart]);
 
   return (
     <ul className="BuzzList">
@@ -41,4 +43,4 @@ const BuzzList = ({ buzzings, profile, getProfile, getBuzzings }) => {
 const mapStateToProps = state => ({
   profile: state.profile.profile,
 })
-export default connect(mapStateToProps, {getProfile, getBuzzings})(BuzzList)
+export default connect(mapStateToProps, {getProfile, getBuzzings, authStart})(BuzzList)
