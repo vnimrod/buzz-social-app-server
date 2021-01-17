@@ -58,7 +58,7 @@ const App = () => {
               <Route path="/user/:uid" exact>
                 <StaticProfile />
               </Route>
-              <AuthRoute path="/buzzings" exact component={MainPage} />
+              <Route path="/buzzings" exact component={MainPage} />
               <AuthRoute path="/profile" exact component={Profile} />
               <AuthRoute path="/my-profile" exact component={MyProfile} />
               <AuthRoute path="/add-education" exact component={AddEducation} />
