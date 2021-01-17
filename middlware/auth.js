@@ -3,9 +3,9 @@ const config = require('config');
 
 const auth = (req, res, next) => {
   const token = req.header('x-auth-token');
-  console.log(token)
+  
   if (!token) {
-    return res.status(401).json({ msg: 'authorization denied!' });
+    return res.status(401).json({ msg: {token} });
   }
 
   try {
