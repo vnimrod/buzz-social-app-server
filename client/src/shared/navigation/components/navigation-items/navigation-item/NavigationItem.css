@@ -1,0 +1,26 @@
+.NavigationItem {
+    margin: 10px 5px;
+    box-sizing: border-box;
+    width: 100%;
+}
+
+.NavigationItem a {
+    color: #8F5C2C;
+    text-decoration: none;
+    width: 100%;
+    box-sizing: border-box;
+
+}
+.NavigationItem img{
+  width:30px;
+  height:30px;
+}
+
+@media (min-width: 768px) {
+  .NavigationItem{
+    display: block;
+  }
+  .NavigationItem a{
+    display: block;
+  }
+}

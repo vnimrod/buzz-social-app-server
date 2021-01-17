@@ -1,0 +1,57 @@
+.AddNewBuzz {
+  display: flex;
+  background-color: white;
+  box-shadow: 0px 0px 4px 0px rgba(0, 0, 0, 0.75);
+  border-radius: 2%;
+  width: 50%;
+  height: 70px;
+}
+
+.AddNewBuzz__avatar {
+  align-self: center;
+  margin-left: 10px;
+}
+
+.AddNewBuzz__BuzzInfo {
+  display: flex;
+  align-self: center;
+  opacity: 75%;
+  background-color: #dcdcdc;
+  height: 50px;
+  width: 270px;
+  border-radius: 29%;
+  margin-left: 10px;
+  cursor: pointer;
+}
+
+.AddNewBuzz__BuzzInfo span {
+  font-size: 25px;
+  font-family: "Raleway", sans-serif;
+  margin-left: 18px;
+  align-self: center;
+}
+
+.AddNewBuzz__BuzzInfo:hover {
+  background-color: lightgray;
+}
+
+.AddNewBuzz__BuzzUpload {
+  display: flex;
+  margin-left: 50px;
+  cursor: pointer;
+  font-family: "Raleway", sans-serif;
+}
+.AddNewBuzz__photoUpload:hover{
+  opacity: 80%;
+}
+.AddNewBuzz__photoUpload {
+  display: flex;
+  align-items: center;
+  margin-left: 5px;
+}
+
+@media (max-width: 768px) {
+  .AddNewBuzz{
+    width: 120%;
+  }
+}

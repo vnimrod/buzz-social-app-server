@@ -1,0 +1,23 @@
+.StaticProfile{
+  margin-top: 70px;
+  display: flex;
+  flex-direction: column;
+  padding: 10px;
+}
+.StaticProfile__avatar{
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  padding: 20px;
+}
+.StaticProfile__avatar__name{
+  font-family: 'Poppins', sans-serif;
+  color: #8B4513;
+  font-size: 30px;
+}
+.StaticProfile__about{
+  padding:10px;
+}
+.StaticProfile__education{
+  padding: 10px;
+}

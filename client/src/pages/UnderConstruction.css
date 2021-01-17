@@ -1,0 +1,21 @@
+.UnderConstruction{
+  margin-top: 70px;
+  width: 100%;
+  height: 100%;
+  background-color: white;
+}
+.UnderConstruction__elements{
+  display: flex;
+}
+.UnderConstruction__elements__message{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.UnderConstruction__elements__message__oops{
+  font-size: 50px;
+}
+
+.UnderConstruction img{
+  width:30rem;
+}

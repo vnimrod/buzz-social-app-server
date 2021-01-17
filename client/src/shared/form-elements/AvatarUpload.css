@@ -1,0 +1,36 @@
+.AvatarUpload{
+  display: flex;
+  margin-top: 5px;
+}
+
+.AvatarUpload button{
+  align-self: center;
+  height: 40px;
+  padding: 6px;
+  margin-left: 15px;
+}
+
+.AvatarUpload input{
+  display: none;
+  /* border: 3px solid #ff0055; */
+}
+.AvatarUpload__file label{
+  cursor: pointer;
+}
+.AvatarUpload__file{
+  display: flex;
+  padding: 7px;
+  border: 3px solid #ff0055;
+  border-radius: 5px;
+}
+
+.AvatarUpload label:hover{
+  opacity: 70%;
+}
+
+.AvatarUpload__upload-msg{
+  align-self: center; 
+  color: red;
+  font-weight: bold;
+  padding:10px;
+}
