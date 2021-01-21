@@ -6,5 +6,5 @@ Client github repo: https://github.com/vnimrod/buzz-social-app
 
 #### Technologies:
 - Node.js With express
-- Mongo with moongose (Atlas)
+- Mongo with mongoose (Atlas)
 - MVC
